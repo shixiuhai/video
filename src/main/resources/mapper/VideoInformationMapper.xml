@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- <mapper namespace="com.walk.business.dao.AnchorDao"> -->
+<mapper namespace="video.com.video.mapper.VideoInformationMapper">
+    <select id="getResult" resultType="video.com.video.entity.VideoInformation">
+        select * from video_information
+    </select>
+
+
+</mapper>
